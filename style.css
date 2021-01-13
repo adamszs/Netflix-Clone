@@ -1,6 +1,8 @@
-.util-primary { color: #E50914;}
-.util-red { color: #b91d24;}
-.util-black {color: #221f1f;}
-.util-white {color: #f5f5f1;}
-
-nav ul li a {margin:auto 15px;}
+.util-primary { color: #db0000;}
+.util-red { color: #831010;}
+.util-black {color: #000000;}
+.util-white {color:#ffffff;}
+.util-gray {color: #564d4d}
+nav ul li a {margin:auto 25px;}
+/* footer { background-color: red;} */
+#Logo {margin: 1rem;}
