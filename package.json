@@ -1,20 +1,7 @@
 {
-  "name": "Netflix-Clone",
-  "version": "1.0.0",
-  "description": "Clone of Netflix with VueJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adamszs/Netflix-Clone.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adamszs/Netflix-Clone/issues"
-  },
-  "homepage": "https://github.com/adamszs/Netflix-Clone#readme"
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
 }

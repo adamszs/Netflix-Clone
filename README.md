@@ -1,2 +1,2 @@
 # Netflix-Clone
-Clone of Netflix with VueJS
+Clone of Netflix with HTML, TailWindCSS, JS
