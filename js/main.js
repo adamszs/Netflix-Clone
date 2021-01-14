@@ -1,3 +1,8 @@
 console.log('testing..🇺🇸 🤝 🇳🇴');
-const date = new Date();
-document.getElementById('year').innerText += date.getFullYear();
+
+var app = new Vue({
+  el: "#year",
+  data: {
+    currentYear: new Date().getFullYear(),
+  },
+});
