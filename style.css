@@ -1,7 +1,35 @@
-.util-primary { color: #db0000;}
+.util-primary { color: #e50914;}
 .util-red { color: #831010;}
-.util-black {color: #000000;}
-.util-white {color:#ffffff;}
+.util-black {color: #000;}
+.util-white {color:#fff;}
 .util-gray {color: #564d4d}
 nav ul li a {margin:auto 25px;}
 footer { background-color:  #564d4d;}
+
+.util-primary-bg { background-color: #e50914;}
+.util-red-bg {background-color: #831010;}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 7px 17px;
+    border-radius: .2rem;
+    font-size:1rem;
+}
+.banner {
+    height:100%;
+    width:100%;
+    min-height:600px;
+    background: url("./images/netflix-banner.jpg") repeat top left;
+    z-index:0;
+}
+.banner::before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.4);
+    z-index:-1;
+}
